@@ -1,7 +1,6 @@
 // main.js
 
 // the following fuctions have been loaded to this main file
-const f = require('./functions');
 
 //please look at functions.js and observe the inputs that being asked to use then enter them and check if expected results were given
 
