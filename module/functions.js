@@ -90,9 +90,16 @@ function processStudentNames(names) {
         sortedAlphabetically
     };
 }
+function addPoints(userPoints, pointsTobeAdded){
+    return userPoints + pointsTobeAdded
+}
+function removePoints(userPoints, pointsToBeDuducted){
+    return userPoints - pointsToBeDuducted
+}
+function donatePoints(donatingUser, recievingUser, amountOfPoints){
+    return [donatingUser - amountOfPoints, recievingUser + amountOfPoints]
 
-
-
+}
 module.exports = {
     add,
     subtract,
@@ -103,7 +110,10 @@ module.exports = {
     sortByLength,
     convertNamesToLengths,
     processStudentNames,
-    sortAlphabetically
+    sortAlphabetically,
+    addPoints,
+    removePoints,
+    donatePoints
 
 
 };

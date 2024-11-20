@@ -1,6 +1,24 @@
 // main.js
 
 // the following fuctions have been loaded to this main file
+const f = require('./functions');
+console.log(f.add(10, 9))
+console.log(f.subtract(10, 9))
+console.log(f.multiply(10, 9))
+console.log(f.divide(10, 9))
+console.log(f.toLowerCaseList(['Gilberto']))
+console.log(f.convertNamesToLengths(['Gilberto']));
+console.log(f.sortByLength(['Gilberto', 8]))
+console.log(f.sortAlphabetically(['Gilberto']))
+console.log(f.processStudentNames(['Gilberto', 'Gilberto']))
+console.log(f.donatePoints(70, 4, 11))
+/*
+
+
+
+    
+    */
+
 
 //please look at functions.js and observe the inputs that being asked to use then enter them and check if expected results were given
 
